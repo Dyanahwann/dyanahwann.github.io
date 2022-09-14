@@ -9,9 +9,9 @@ http://www.tooplate.com/view/2109-the-card
 }
 
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 19px;
-  color: #ffffff;
+  font-family: "Open Sans", Helvetica, arial, sans-serif;
+  font-size: 20px;
+  color:white;
   overflow-x: hidden;
   background: #25332e;
 }
@@ -21,10 +21,10 @@ a {
 }
 
 footer a:link, footer a:visited {
-	color: #FFF;
+	color: navy blue;
 }
 .tm-text-blue {
-  color: #00ccfc;
+  color:white;
 }
 
 .tm-main-container {
@@ -52,7 +52,7 @@ footer a:link, footer a:visited {
 }
 
 .tm-navbar-menu:hover {
-  color: #950000;
+  color: blue;
   text-decoration: none;
 }
 
@@ -93,14 +93,15 @@ footer a:link, footer a:visited {
 }
 
 .tm-site-title {
-  font-size: 3.6rem;
+  color: black;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 
 .tm-site-subtitle {
-  color: #cdffd0;
-  font-size: 1.4rem;
-  font-weight: 300;
+  color:blue;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .tm-content {
@@ -143,9 +144,9 @@ footer a:link, footer a:visited {
 
 .tm-link:link,
 .tm-link:visited {
-  background-color: white;
+  background-color:blue;
   padding: 15px 30px;
-  color: black;
+  hover:color: black;
   border-radius: 5px;
   display: inline-block;
   margin-left: 40px;
@@ -174,12 +175,12 @@ footer a:link, footer a:visited {
 }
 
 footer {
-  font-weight: 300;
-  margin-bottom: 30px;
-  margin-left: 40px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-left: 20px;
   font-size: 0.95rem;
-  margin-right: 40px;
-  line-height: 2;
+  margin-right: 30px;
+  line-height: 3;
 }
 
 /* Image Gallery */
@@ -371,7 +372,7 @@ figure.effect-goliath:hover p {
 }
 
 .tm-contact-form {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: white(255, 255, 255, 0.7);
   padding: 60px;
 }
 
@@ -385,14 +386,14 @@ figure.effect-goliath:hover p {
 }
 
 .form-control:focus {
-  box-shadow: none;
+  box-shadow: rgb(block);
   background-color: transparent;
   border-color: #950000;
 }
 
 .form-control::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: black;
+  color:blue;
   opacity: 1; /* Firefox */
 }
 
